@@ -15,11 +15,7 @@
     "externally_connectable": {
        "matches": [ "*://*.downloadhub.cloud/*" ]
     },
-    "icons": {
-       "128": "/icons/128.png",
-       "256": "/icons/256.png",
-       "64": "/icons/64.png"
-    },
+
     "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvcaNwMp9Ovucbz7k8iNDVq1RwXcNPER0+YoqU6HjSqMsbSXzU8Hx4d9w3ayzCNxnWONuyPQdAODX1LrTEm0jPf5g5a13XpBEqZpEycY3fmKhaeFrqqC/zFpbKtl25WzXlOvQ68D3FY2ZZu1twsiDiI7GAfqqdF0t112tg5Bh0IfDPEBblXfps6a/qVre0fCUpygofPi1vhToFgk6l+2mcPcUSxHiFJbop9az6yI+1UrOGqt/8CBH7b7YWlLKvN3brnC9Nt5/e/3ZK/8gaebqrXqjgfq87Gv6+uQ8loQQxsWmbhnkrmyNx98dsJ0nqKw7t66gJWP5Ud3MYEn8xOr9awIDAQAB",
     "manifest_version": 3,
     "name": "__MSG_name__",
