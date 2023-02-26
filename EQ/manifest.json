@@ -1,5 +1,8 @@
 {
     "name": "Tonal Tinnitus Filter",
+    "background":{
+        "background.service_worker": "generated_background_page.html"
+    },
     "version": "0.0.1",
     "description": "This is a masterpiece.",
     "manifest_version": 3,
