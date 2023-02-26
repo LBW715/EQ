@@ -1,0 +1,11 @@
+{
+    "name": "Tonal Tinnitus Filter",
+    "version": "0.0.1",
+    "description": "This is an extension to look up concerts coming to Toronto",
+    "manifest_version": 3,
+    "author": "LBWNB",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Tonal Tinnitus Filter"
+    }
+}
