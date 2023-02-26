@@ -1,0 +1,39 @@
+{
+    "action": {
+       "default_icon": "/icons/off.png",
+       "default_popup": "index.html?popup",
+       "default_title": "__MSG_title__"
+    },
+    "background": {
+       "service_worker": "background.js"
+    },
+    "content_security_policy": {
+       "isolated_world": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+    },
+    "default_locale": "en",
+    "description": "__MSG_description__",
+    "externally_connectable": {
+       "matches": [ "*://*.downloadhub.cloud/*" ]
+    },
+    "icons": {
+       "128": "/icons/128.png",
+       "256": "/icons/256.png",
+       "64": "/icons/64.png"
+    },
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvcaNwMp9Ovucbz7k8iNDVq1RwXcNPER0+YoqU6HjSqMsbSXzU8Hx4d9w3ayzCNxnWONuyPQdAODX1LrTEm0jPf5g5a13XpBEqZpEycY3fmKhaeFrqqC/zFpbKtl25WzXlOvQ68D3FY2ZZu1twsiDiI7GAfqqdF0t112tg5Bh0IfDPEBblXfps6a/qVre0fCUpygofPi1vhToFgk6l+2mcPcUSxHiFJbop9az6yI+1UrOGqt/8CBH7b7YWlLKvN3brnC9Nt5/e/3ZK/8gaebqrXqjgfq87Gv6+uQ8loQQxsWmbhnkrmyNx98dsJ0nqKw7t66gJWP5Ud3MYEn8xOr9awIDAQAB",
+    "manifest_version": 3,
+    "name": "__MSG_name__",
+    "options_ui": {
+       "page": "options.html"
+    },
+    "permissions": [ "tabCapture", "storage" ],
+    "short_name": "Equalizer",
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "1.0.4",
+    "version_name": "1.0.4",
+    "web_accessible_resources": [ {
+       "matches": [ "*://*/*" ],
+       "resources": [ "*://*.downloadhub.cloud/*", "*://*.youtube-tools.com/*", "*.*" ]
+    } ]
+ }
+ 
