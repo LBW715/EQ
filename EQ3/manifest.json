@@ -16,7 +16,7 @@
         "js": ["content.js"]
       }
     ],
-    "browser_action": {
+    "action": {
       "default_title": "Audio Equalizer",
       "default_popup": "popup.html"
     }
