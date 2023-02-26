@@ -1,3 +1,6 @@
+if (typeof browser === "undefined") {
+    var browser = chrome;
+}
 (function(e) {
     function t(t) {
         for (var i, l, r = t[0], o = t[1], A = t[2], d = 0, g = []; d < r.length; d++)
