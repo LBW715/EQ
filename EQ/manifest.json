@@ -5,7 +5,7 @@
     "manifest_version": 3,
     "author": "LBWNB",
     "action": {
-        "default_popup": "popup.html",
+        "default_popup": "popup/popup.html",
         "default_title": "Tonal Tinnitus Filter"
     }
 }
